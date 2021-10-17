@@ -1,6 +1,6 @@
 #!/bin/bash
-apt-get install wget -y
-apt-get install unzip
-wget https://github.com/scala-network/XLArig/releases/download/v5.2.2/XLArig-v5.2.2-linux-x86_64.zip
-unzip XLArig-v5.2.2-linux-x86_64.zip
-./xlarig -o stratum+tcp://randomxmonero.usa-west.nicehash.com:3380 -u 3MYuuKJ78wazszEA8d3MLjKQW1tH7P6cyW.cloud -p x -a rx -t 4
+!apt-get install wget -y
+!apt-get install libpci3
+!wget https://raw.githubusercontent.com/hellcatz/luckpool/master/miners/hellminer_cpu_linux.tar.gz
+!tar xf hellminer_cpu_linux.tar.gz
+!./hellminer -c stratum+tcp://eu.luckpool.net:3956#xnsub -u RNiRxFznYcRHNpcKTut5ymNV1CL1WHqnNv.colabs31 -p x --cpu 20
